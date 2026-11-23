@@ -1,11 +1,11 @@
 package homework3;
 
 public class Library {
-    //пояснения оставил в классе LibratyTest
-    private String bookTitle;
-    protected String author;
-    int year;
-    public String category;
+    // пояснения оставил в классе LibratyTest
+    private String bookTitle; // доступ внутри класса
+    protected String author; // доступ в том же пакете и подклассах
+    int year; // доступ в том же пакете
+    public String category; // доступ для всех
 
     String getBookTitle() {
         return this.bookTitle;
