@@ -2,8 +2,8 @@ package homework3;
 
 public class Company {
     static String companyName;
-    final int employeeID;
-    String employeeName;
+    private final int employeeID;
+    private String employeeName;
 
     Company(int someEmployeeID, String someEmployeeName) {
         this.employeeID = someEmployeeID;

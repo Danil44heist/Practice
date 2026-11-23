@@ -1,18 +1,18 @@
 package homework3;
 
 public class Person {
-    private String fistName;
+    private String firstName;
     private String lastName;
     private final String ssn;
 
-    Person(String someFistName, String someLastName, String someSsn){
-        this.fistName = someFistName;
+    Person(String someFirstName, String someLastName, String someSsn){
+        this.firstName = someFirstName;
         this.lastName = someLastName;
         this.ssn = someSsn;
     }
 
-    String getFistName() {
-        return this.fistName;
+    String getFirstName() {
+        return this.firstName;
     }
 
     String getLastName() {
@@ -23,15 +23,15 @@ public class Person {
         return this.ssn;
     }
 
-    void setFistName(String newFistName) {
-        this.fistName = newFistName;
+    void setFirstName(String newFirstName) {
+        this.firstName = newFirstName;
     }
 
     void  setLastName(String newLastName) {
         this.lastName = newLastName;
     }
 
-    void printPersonInfo() {
-        System.out.println("Имя: " + this.fistName + ", Фамилия: " + this.lastName + ", SSN: " + this.ssn);
+    final void printPersonInfo() {
+        System.out.println("Имя: " + this.firstName + ", Фамилия: " + this.lastName + ", SSN: " + this.ssn);
     }
 }

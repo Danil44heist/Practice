@@ -1,9 +1,9 @@
 package homework3;
 
 public class University {
-    static String universityName;
-    final int studentID;
-    String studentName;
+    private static String universityName;
+    private final int studentID;
+    private String studentName;
 
     University(int someStudentID, String someStudentName) {
         this.studentID = someStudentID;
@@ -18,7 +18,7 @@ public class University {
         return this.studentName;
     }
 
-    void printStudentInfo() {
+    final void printStudentInfo() {
         System.out.println(this.studentName + " " + this.studentID + " " + " " + universityName);
     }
 

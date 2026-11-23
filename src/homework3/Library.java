@@ -1,6 +1,7 @@
 package homework3;
 
 public class Library {
+    //пояснения оставил в классе LibratyTest
     private String bookTitle;
     protected String author;
     int year;

@@ -45,7 +45,7 @@ public class Main {
         Person p1 = new Person("Иван", "Иванов", "123-45-6789");
         Person p2 = new Person("Денис", "Денисов", "155-53-4421");
         Person p3 = new Person("Ольга", "Фролова", "155-11-2009");
-        p1.setFistName("Ваня");
+        p1.setFirstName("Ваня");
         p1.printPersonInfo();
         p2.printPersonInfo();
         p3.printPersonInfo();

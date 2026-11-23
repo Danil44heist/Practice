@@ -1,9 +1,9 @@
 package homework3;
 
 public class GameSettings {
-    static int maxPlayers;
-    final String gameName;
-    int currentPlayers;
+    private static int maxPlayers;
+    private final String gameName;
+    private int currentPlayers;
 
     GameSettings(String someGameName, int someCurrentPlayers) {
         this.gameName = someGameName;
@@ -18,7 +18,7 @@ public class GameSettings {
         return ++this.currentPlayers;
     }
 
-    void printGameStatus(){
+     final void printGameStatus(){
         System.out.println("Навазние " + this.gameName + ", текущее количество игроков: " + this.currentPlayers + ", максимальное количество игроков: " + maxPlayers);
     }
 
