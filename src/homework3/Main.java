@@ -35,6 +35,7 @@ public class Main {
         GameSettings game1 = new GameSettings("В поисках Немо", 15);
         GameSettings game2 = new GameSettings("В поисках Дори", 130);
         GameSettings.setMaxPlayers(512);
+        System.out.println(game1.addPlayer());
         game1.addPlayer();
         game2.addPlayer();
         game1.printGameStatus();

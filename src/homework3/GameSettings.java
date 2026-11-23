@@ -15,7 +15,7 @@ public class GameSettings {
     }
 
     int addPlayer() {
-        return this.currentPlayers++;
+        return ++this.currentPlayers;
     }
 
     void printGameStatus(){

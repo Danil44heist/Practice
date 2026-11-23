@@ -1,8 +1,8 @@
 package homework2;
 
 public class Point {
-    double x;
-    double y;
+    private double x;
+    private double y;
 
     Point(double someX, double someY){
         this.x = someX;

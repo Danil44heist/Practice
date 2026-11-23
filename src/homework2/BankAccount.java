@@ -1,8 +1,8 @@
 package homework2;
 
 public class BankAccount {
-    String owner;
-    double balance;
+    private String owner;
+    private double balance;
 
     BankAccount(String someOwner, double someBalance){
         this.owner = someOwner;

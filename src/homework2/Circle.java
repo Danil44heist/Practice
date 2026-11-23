@@ -1,7 +1,7 @@
 package homework2;
 
 public class Circle {
-    double radius;
+    private double radius;
 
     Circle(double someRadius){
         this.radius = someRadius;
@@ -15,11 +15,11 @@ public class Circle {
         this.radius = newRadius;
     }
 
-    void calculateArea(){
-        System.out.println("Площадь круга = " + Math.PI*this.radius*this.radius);
+    double calculateArea(){
+        return Math.PI*this.radius*this.radius;
     }
 
-    void calculateCircumference(){
-        System.out.println("Длина окружности = " + 2*Math.PI*this.radius);
+    double calculateCircumference(){
+        return 2*Math.PI*this.radius;
     }
 }

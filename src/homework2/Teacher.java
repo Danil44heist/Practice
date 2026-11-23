@@ -1,8 +1,8 @@
 package homework2;
 
 public class Teacher {
-    String name;
-    String subject;
+    private String name;
+    private String subject;
 
     Teacher(String someName, String someSubject){
         this.name = someName;

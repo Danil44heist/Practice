@@ -11,7 +11,7 @@ public class Main {
         //Rectangle
         Rectangle rectangle1 = new Rectangle(10,15);
         rectangle1.setWidth(20);
-        rectangle1.calculateArea();
+        System.out.println("Площадь прямоугольника = " + rectangle1.calculateArea());
         System.out.println();
 
         //Book
@@ -43,8 +43,8 @@ public class Main {
         //Circle
         Circle c1 = new Circle(10.5);
         c1.setRadius(11.5);
-        c1.calculateArea();
-        c1.calculateCircumference();
+        System.out.println("Площадь круга = " + c1.calculateArea());
+        System.out.println("Длина окружности = " + c1.calculateCircumference());
         System.out.println();
 
         //Teacher
